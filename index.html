@@ -1,1 +1,49 @@
-test
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>stCheck</title>
+
+	<link rel="stylesheet" href="dist/css/stcheck.css">
+
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+	<header class="header">
+		<div class="header__align">
+			<a class="header__logo" href="http://stabla.com"><img src="assets/img/logo-stabla@2x.png" alt="stabla.com"></a>
+
+			<a class="header__github" href="https://github.com/tstabla">Follow @tstabla</a>
+		</div>
+	</header>
+
+	<h1 class="title">
+		stCheck
+		<small>Stylize radio and checkbox buttons easily</small>
+	</h1>
+
+	<section class="entry">
+		<div class="entry__group">
+			<input type="checkbox" name="ex1" value="1" checked>
+			<input type="checkbox" name="ex1" value="2">
+		</div>
+
+		<div class="entry__group">
+			<input type="radio" name="ex2" value="1">
+			<input type="radio" name="ex2" value="2" checked>
+		</div>
+	</section>
+
+
+	<script src="dist/js/stcheck.js"></script>
+
+	<script>
+		new stCheck('input');
+	</script>
+
+</body>
+</html>
