@@ -1,6 +1,8 @@
-#stCheck
+#[stCheck](https://tstabla.github.io/stCheck/)
 
 Stylize radio and checkbox buttons easily.
+
+[SEE DEMO](https://tstabla.github.io/stCheck/)
 
 ##How to use
 
