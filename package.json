@@ -1,0 +1,35 @@
+{
+  "name": "stCheck",
+  "version": "0.9.0",
+  "description": "Stylize radio and checkbox buttons easily.",
+  "author": {
+    "name": "Tomasz Stabla",
+    "email": "t.stabla@hotmail.com",
+    "url": "http://stabla.com"
+  },
+  "main": "dist/js/stVideo.js",
+  "homepage": "https://github.com/tstabla/stCheck",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tstabla/stCheck.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "checkbox",
+    "radio",
+    "button",
+    "stylize"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "matchdep": "*",
+    "module": "0.0.1"
+  }
+}
