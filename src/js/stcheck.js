@@ -1,12 +1,14 @@
-(function (root, factory) {
-  if ( typeof define === 'function' && define.amd ) {
-    define([], factory(root));
-  } else if ( typeof exports === 'object' ) {
+(function(root, factory) {
+  if(typeof define === 'function' && define.amd) {
+    define([], function() {
+      return factory(root);
+    });
+  } else if(typeof module === "object" && module.exports) {
     module.exports = factory(root);
   } else {
     root.stCheck = factory(root);
   }
-})(typeof global !== 'undefined' ? global : this.window || this.global, function (root) {
+})(typeof global !== 'undefined' ? global : this.window || this.global, function(root) {
 	'use strict';
 
   var stCheck = function(selector) {
